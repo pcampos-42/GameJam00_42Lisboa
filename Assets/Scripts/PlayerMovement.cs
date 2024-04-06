@@ -19,7 +19,8 @@ public class PlayerMovement : MonoBehaviour
     private float   jumpTimeCounter;
     private bool    isJumping;
     private int jumpNumber;
-    public  CoinCollectible doubleJump;
+    // public  DoubleJumpCollectible doubleJump;
+    public  Inventory   inventory;
 
     // Start is called before the first frame update
     void Start()
@@ -49,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
             jumpNumber = 0;
         }
 
-        if ((isGrounded == true || (jumpNumber < 2 && doubleJump.isCollected == true)) && Input.GetButtonDown("Jump"))
+        if ((isGrounded == true || (jumpNumber < 2 && inventory.doubleJump == true)) && Input.GetButtonDown("Jump"))
         {
             jumpTimeCounter = jumpTime;
             playerRb.velocity = Vector2.up * jumpForce;
