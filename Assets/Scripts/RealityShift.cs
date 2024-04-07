@@ -7,6 +7,7 @@ public class RealityShift : MonoBehaviour
 {
     private Material ogMaterial;
     private Material invMaterial;
+    public Inventory inventory;
     public bool isInverted = false;
     // Start is called before the first frame update
     void Start()
@@ -21,7 +22,7 @@ public class RealityShift : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.F) && inventory.canInvertColor == true)
         {
             isInverted = !isInverted;
             InvertMater();
