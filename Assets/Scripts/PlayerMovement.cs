@@ -19,7 +19,6 @@ public class PlayerMovement : MonoBehaviour
     private float   jumpTimeCounter;
     private bool    isJumping;
     private int jumpNumber;
-    // public  DoubleJumpCollectible doubleJump;
     public  Inventory   inventory;
 
     // Start is called before the first frame update
