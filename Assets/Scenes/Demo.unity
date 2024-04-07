@@ -1696,7 +1696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 201928984}
-  isInverted: 0
+  isInverted: 1
 --- !u!114 &146710151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2189,7 +2189,11 @@ Transform:
   m_GameObject: {fileID: 201928977}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -8.08, y: -3.42, z: 0}
+=======
+  m_LocalPosition: {x: -8.25, y: -3.24, z: 0}
+>>>>>>> d79694f (Full game)
   m_LocalScale: {x: 0.3301, y: 0.3301, z: 0.3301}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3931,7 +3935,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 385792439}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b0787541a6ff2252b1f343055ee22bd, type: 3}
   m_Name: 
@@ -5835,7 +5839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 201928984}
-  isInverted: 0
+  isInverted: 1
 --- !u!114 &626438596
 MonoBehaviour:
   m_ObjectHideFlags: 0
