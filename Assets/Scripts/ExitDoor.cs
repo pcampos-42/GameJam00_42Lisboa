@@ -12,7 +12,7 @@ public class ExitDoor : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && playerInRange == true && inventory.numberKeys > 1)
         {
-            ; // sair do jogo
+            Debug.Log("Acabou o Jogo");
         }
     }
 
