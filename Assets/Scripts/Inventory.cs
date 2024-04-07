@@ -6,6 +6,7 @@ public class Inventory : MonoBehaviour
 {
     public bool    doubleJump;
     public int     numberKeys;
+    public bool    canInvertColor;
 
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("Collectible"))

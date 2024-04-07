@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Collectible
   - Wall
+  - Ground
+  - Platform
   layers:
   - Default
   - TransparentFX

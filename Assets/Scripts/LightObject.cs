@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShadowObject : MonoBehaviour
+public class LightObject : MonoBehaviour
 {
-    public RealityShift realityShift;
+     public RealityShift realityShift;
 
     void Start()
     {
-        Desappear();
     }
 
     void Update()
@@ -17,11 +16,11 @@ public class ShadowObject : MonoBehaviour
         {
             if(realityShift.GetRealityShift() == true)
             {
-                Desappear();
+                Appear();
             }
             else
             {
-                Appear();
+                Desappear();
             }
         }
     }
