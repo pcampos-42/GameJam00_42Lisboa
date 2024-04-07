@@ -1,4 +1,4 @@
-Library: /sgoinfre/davda-si/Unity/Projects/GameJam00_42Lisboa/Temp/BurstOutput/Data/Plugins/lib_burst_generated
+Library: /home/david/gameJam/final/Temp/BurstOutput/Data/Plugins/lib_burst_generated
 --platform=Linux
 --backend=burst-llvm-16
 --target=X64_SSE2
@@ -51,10 +51,10 @@ Library: /sgoinfre/davda-si/Unity/Projects/GameJam00_42Lisboa/Temp/BurstOutput/D
 --assembly-defines=System;
 --assembly-defines=mscorlib;
 --generate-link-xml=Temp/burst.link.xml
---temp-folder=/sgoinfre/davda-si/Unity/Projects/GameJam00_42Lisboa/Temp/Burst
---key-folder=/sgoinfre/davda-si/Unity/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport
---decode-folder=/sgoinfre/davda-si/Unity/Projects/GameJam00_42Lisboa/Library/Burst
---output=/sgoinfre/davda-si/Unity/Projects/GameJam00_42Lisboa/Temp/BurstOutput/Data/Plugins/lib_burst_generated
+--temp-folder=/home/david/gameJam/final/Temp/Burst
+--key-folder=/home/david/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport
+--decode-folder=/home/david/gameJam/final/Library/Burst
+--output=/home/david/gameJam/final/Temp/BurstOutput/Data/Plugins/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
@@ -140,10 +140,10 @@ Library: /sgoinfre/davda-si/Unity/Projects/GameJam00_42Lisboa/Temp/BurstOutput/D
 --assembly-defines=System;
 --assembly-defines=mscorlib;
 --generate-link-xml=Temp/burst.link.xml
---temp-folder=/sgoinfre/davda-si/Unity/Projects/GameJam00_42Lisboa/Temp/Burst
---key-folder=/sgoinfre/davda-si/Unity/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport
---decode-folder=/sgoinfre/davda-si/Unity/Projects/GameJam00_42Lisboa/Library/Burst
---output=/sgoinfre/davda-si/Unity/Projects/GameJam00_42Lisboa/Temp/BurstOutput/Data/Plugins/lib_burst_generated
+--temp-folder=/home/david/gameJam/final/Temp/Burst
+--key-folder=/home/david/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport
+--decode-folder=/home/david/gameJam/final/Library/Burst
+--output=/home/david/gameJam/final/Temp/BurstOutput/Data/Plugins/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
